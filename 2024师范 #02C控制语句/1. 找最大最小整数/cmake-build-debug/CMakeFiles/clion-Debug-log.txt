@@ -1,0 +1,1 @@
+C:\Users\kcalb\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/kcalb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "C:\Users\kcalb\Documents\SHNU-C\2024师范 #02C控制语句\1. 找最大最小整数" -B "C:\Users\kcalb\Documents\SHNU-C\2024师范 #02C控制语句\1. 找最大最小整数\cmake-build-debug"
