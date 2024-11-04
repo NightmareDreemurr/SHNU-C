@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.29)
-project(14)
+project(14 C)
 
-set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_C_STANDARD 90)
 
-add_executable(14 main.cpp)
+add_executable(14 main.c)
