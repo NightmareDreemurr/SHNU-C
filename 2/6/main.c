@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    int weight, total = 0;
+    int weight;
+    int total = 0;
     char c;
-    scanf("%d %c", weight, &c);
+    scanf("%d %c", &weight, &c);
     if(c == 'y') {
         total += 5;
     }
@@ -13,10 +14,16 @@ int main(void)
     } else {
         total += 8;
         weight -= 1000;
-        while(weight >= 500) {
-            total +=
-            weight -= 500;
+        if(weight > 0){
+            while(weight >= 500) {
+                total += 4;
+                weight -= 500;
+            }
+            if(weight > 0){
+                total += 4;
+            }
         }
+        printf("%d\n", total);
     }
     return 0;
 }
