@@ -2,18 +2,17 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int max = 0;
-    int min = 2147483647;
+    int max = 2147483647;
+    int min = 0;
     int i;
-    for(i=0;i< n;i++){
-        int temp;
-        scanf("%d",&temp);
-        if(temp>max){
-            max=temp;
+    for(i=0;i<n;i++){
+        scanf("%d",&n);
+        if(n>max){
+            max=n;
         }
-        if(temp<min){
-            min=temp;
+        if(n<min){
+            min=n;
         }
+        printf("%d %d",max,min);
     }
-    printf("%d %d",max,min);
 }
